@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: nameFont;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+body {
+   background-color: hsl(0, 0%, 8%);
+   font-family: nameFont;
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+}
+ #location {
+    color: hsl(75, 94%, 57%);
+    font-family: nameFont;
+    font-size: 14px;
+    font-weight: 400;
+}
+.about > * {
+    margin: 10px 0;
+}
+.about > p {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: nameFont;
+    color: hsl(0, 0%, 100%);
+}   
+img {
+    border-radius: 200px;
+    
+}
+.socials > *{
+    padding: 10px 70px;
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px;
+    font-family: nameFont;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+}
+.socials > *:hover {
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    font-weight: 600;
+}
